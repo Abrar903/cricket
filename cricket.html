@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket</title>
+    <style>
+        .bat{
+            transition: transform 0.2s ease-in-out;
+            margin-top: 100px;
+        }
+        .bat:hover{
+            transform: rotate(-60deg);
+            transform-origin: 100% 0%;
+        }
+        .ball{
+            height: 40px;
+            width: 40px;
+            background-color: red;
+            border-radius: 50%;
+            position: relative;
+            left: 290px;
+            transition: transform 1.6s ease-in-out 0.3s;
+            margin-top: 20px;
+        }
+        .field:hover .ball{
+            transform: translate(900px, -80px);
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>welcome to Abrar er Cricket</h1>
+    <div class="field">
+        <img class="bat" src="bat.jpg" alt="photo">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>

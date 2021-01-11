@@ -1,0 +1,11 @@
+.box{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+.box-2{
+    border: 1px solid gold;
+    width: 400px;
+    height: 100px;
+}
